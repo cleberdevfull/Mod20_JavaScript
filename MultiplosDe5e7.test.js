@@ -1,6 +1,6 @@
 const {somaMultiplos} = require('./MultiplosDe5e7');
 
-describe('Unidade>>> Multiplos de 5 e 7', () => {
+describe('Multiplos de 5 e 7', () => {
   it('Deve retornar 0 para limite 1', () => {
     expect(somaMultiplos(1)).toBe(0);
   });
